@@ -6,11 +6,14 @@
 --text: rgb(10,65,60);
 }
 
+{
+  box-sizing: border-box;
+}
 
 body {
   background-color:var(--white);
-  margin: 10px;
-  padding: 20px ;
+  margin: 0%;
+  padding: 0% ;
 
 }
 header {
@@ -28,33 +31,14 @@ header {
   
 
 }
-h5 
 
-{width: 500px;
-  padding: 0px;
-  margin: 10px;
-  font-size:small;
-  font-family: "Open Sans";
-  color: var(--text);
-  display: inline-block;
-}
-
-h1 
-{width: 500px;
-  padding: 0px;
-  margin: 10px;
-  font-size:1cm;
-  font-family: "Open Sans";
-  color: var(--text);
-  display: inline-block;
-}
 header a {
   text-decoration: none;
   color: black;
 }
 
 header nav {
-  margin: 10px 0;
+  margin: 0px;
 }
 
 header nav ul  {
@@ -127,35 +111,39 @@ font-family: "Open Sans" ;
   padding-bottom: 2cm;
 }
 
+h5
 
-
-.grid-container {
-  background-image: url(../images/wallpaper.jpg);
-  display: grid;
-  row-gap: 100px;
-  font-size: x-large;
+{width: 500px;
+  padding: 0px;
+  margin: 10px;
+  font-size:medium;
   font-family: "Open Sans";
-  padding: 10%;
-  text-align: justify;
   color: var(--text);
+  display: inline-block;
 }
 
+p
 
-footer {
+{font-family: "Open Sans";}
 
-  font-size:medium;
-  padding: 1%;
-  text-align: end;
+h1 
+{width: 500px;
+  padding: 0px;
+  margin: 10px;
+  font-size:1cm;
+  font-family: "Open Sans";
   color: var(--text);
+  display: inline-block;
 }
 
-.flex-row {
-    display: flex;
-  font-size:medium;
-  padding: 1%;
-  text-align:center;
+h6
+{
+  padding:10px;
+  margin: 10px;
+  font-size:1cm;
+  font-family: "Open Sans";
   color: var(--text);
-
+text-align: center;
 }
 
 
@@ -166,3 +154,64 @@ footer {
   margin-right: auto;
   width: 50%;
 }
+/* flexbox*/
+
+.row 
+{
+  padding:10px;
+  display:flex;
+  flex-flow: row;
+  font-family: "Open Sans";
+  font-size: large;
+  text-align: center;
+}
+
+.main
+
+{background-image: url("../images/program.jpg") }
+
+.side
+
+{background-image: url("../images/02-portfolio-3.jpg") }
+  
+.side2
+
+{background-image: url("../images/02-portfolio-3.jpg") }
+
+ 
+
+
+
+/*text */
+
+
+
+
+
+
+.img {
+  background-color: #aaa;
+ }
+
+/*contact*/
+
+.social {
+  
+  font-size:medium;
+  padding: 1%;
+  text-align:center;
+  color: var(--text);
+
+}
+/*footer*/
+
+
+footer {
+
+  font-size:medium;
+  padding: 1%;
+  text-align: end;
+  color: var(--text);
+}
+
+@media screen and (max-width: 700px)
