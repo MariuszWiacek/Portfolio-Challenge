@@ -2,7 +2,7 @@
 
 :root
 {
---white: #ffffff;
+--white: #f5fbff;
 --text: rgb(10,65,60);
 }
 
@@ -245,7 +245,7 @@ padding-bottom: 1cm;}
 }
 
 .two {
-  background-image: url("../images/bg.jpg");
+  background-image: url("../images/P1.jpg");
   background-position: 50% 15%;
 }
 
@@ -259,14 +259,17 @@ padding-bottom: 1cm;}
 }
 
 .five {
-  background-image: url("../images/bg.jpg");
+  background-image: url("../images/P1.jpg");
 }
 
 .project-label {
   
-  background-color:var(--white);
-  padding: 10px;
+  background-color:rgb(196, 253, 253);
+  width:30%;
+  height:40%;
+  text-align: center;
 }
+
 
 .img {
   background-color:var(--white)
