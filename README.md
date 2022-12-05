@@ -11,7 +11,7 @@ A portfolio website is a unique way to showcase your work and let others know ab
 
 ## Screenshot
 
-![screenshot](assets/images/screenshot.jpg)
+![screenshot](assets/images/screenshot.jpeg)
 
 ## License
 
