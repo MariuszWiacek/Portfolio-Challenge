@@ -344,5 +344,9 @@ footer {
     
     .projects-grid {
         width: 80%;
+
     }
+    .project-label {
+      flex-basis:fit-content ;
   }
+}
