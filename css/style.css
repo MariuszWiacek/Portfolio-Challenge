@@ -317,7 +317,7 @@ footer {
     }
 
     .row {
-        border-bottom: 5px solid var(--pop);
+      flex-direction: column;
         border-right: none;
         text-align: center;
         min-width: 100%;
