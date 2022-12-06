@@ -220,6 +220,7 @@ padding-bottom: 1cm;}
   grid-template-columns: repeat(1fr, 2fr);
   grid-template-rows: repeat(5fr, 2fr);
   gap: 10px;
+  flex-basis: fit-content;
 }
 
 .project {
@@ -344,6 +345,7 @@ footer {
     
     .projects-grid {
         width: 80%;
+        flex-basis: fit-content;
 
     }
     .project-label {
