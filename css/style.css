@@ -296,23 +296,28 @@ footer {
 }
 /*mobile phones media*/
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) 
+{
   
     header {
         justify-content: center;
         padding: 20px;
+Max-width:100%;
     }
 
     header nav ul {
         min-height: 80px;
+Max-width: 100%;
     }
 
     .hero {
         flex-direction: column;
+Max-width: 100%;
     }
 
     .about-me {
         flex-direction: column;
+Max-width: 100%;
     }
 
     .row {
@@ -342,7 +347,7 @@ footer {
     }
     
     .projects-grid {
-        width: 80%;
+        width: 100%;
         flex-basis: fit-content;
 
     }
