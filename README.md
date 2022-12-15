@@ -17,5 +17,10 @@ A portfolio website is a unique way to showcase your work and let others know ab
 
 MIT License
 
+## Link
+
+https://mariuszwiacek.github.io/portfolio/
+
+
 ## Contact info: 
 wiacek.mariusz@gmail.com
