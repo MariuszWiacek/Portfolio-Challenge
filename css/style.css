@@ -342,6 +342,7 @@ Max-width: 100%;
     }
 
     .projects-grid-wrapper {
+grid-template-columns: none;
         width: 100%;
         padding: 10px;
     }
